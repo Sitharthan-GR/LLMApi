@@ -122,20 +122,7 @@ That is a crude version of what ChatGPT does when a thread gets long: the model 
 
 This model spends some `completion_tokens` on **reasoning** before `delta.content` appears. A tiny `--max-tokens` can yield an empty reply with non-zero usage (same as week 1). Keep `--max-tokens` at least a few hundred.
 
-## Temperature (from week 1)
-
-Still a request field. Suggested ranges:
-
-| Task                               | Suggested temperature |
-| ---------------------------------- | --------------------: |
-| Data extraction                    |               `0–0.2` |
-| SQL or DAX generation              |               `0–0.3` |
-| Business report summary            |             `0.2–0.5` |
-| General chatbot                    |             `0.5–0.8` |
-| Brainstorming names and ideas      |             `0.8–1.2` |
-| Creative stories or marketing copy |             `1.0–1.5` |
-
-This CLI defaults to `0.7`.
+This CLI defaults to `temperature` `0.7`. Ranges live in the week 1 README.
 
 ## Mental model to keep
 

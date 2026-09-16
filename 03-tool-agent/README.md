@@ -75,20 +75,7 @@ No tools. `response_format: { "type": "json_object" }` plus a system prompt that
 
 We **validate in Python**. If keys are wrong, we send the bad output back and retry once. The API flag is not enough by itself — always check the object.
 
-Temperature is `0.1` here (week 1 table: extraction).
-
-## Temperature reminder
-
-| Task                               | Suggested temperature |
-| ---------------------------------- | --------------------: |
-| Data extraction                    |               `0–0.2` |
-| SQL or DAX generation              |               `0–0.3` |
-| Business report summary            |             `0.2–0.5` |
-| General chatbot                    |             `0.5–0.8` |
-| Brainstorming names and ideas      |             `0.8–1.2` |
-| Creative stories or marketing copy |             `1.0–1.5` |
-
-`agent.py` defaults to `0.2` so tool arguments stay stable.
+`extract.py` uses `temperature` `0.1`; `agent.py` uses `0.2`. Ranges live in the week 1 README.
 
 ## Mental model to keep
 
