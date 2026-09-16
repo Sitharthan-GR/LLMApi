@@ -8,3 +8,8 @@ __pycache__/
 01-hello-chat/last-response.json
 02-chat-cli/last-request.json
 02-chat-cli/last-stream.json
+03-tool-agent/last-request.json
+03-tool-agent/last-response.json
+03-tool-agent/last-trace.json
+03-tool-agent/last-extract-request.json
+03-tool-agent/last-extract-response.json
