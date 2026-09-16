@@ -16,3 +16,10 @@ __pycache__/
 04-rag/index.json
 04-rag/last-request.json
 04-rag/last-response.json
+05-multi-provider/last-request-meta.json
+05-multi-provider/last-response.json
+05-multi-provider/last-vision-response.json
+05-multi-provider/last-compare.json
+06-gateway/gateway.jsonl
+06-gateway/last-eval.json
+06-gateway/__pycache__/

@@ -1,0 +1,22 @@
+[
+  {"id": "pong", "prompt": "Reply with only the word PONG.", "expect": {"equals": "PONG"}},
+  {"id": "ping", "prompt": "Reply with only the word PING.", "expect": {"equals": "PING"}},
+  {"id": "yes", "prompt": "Reply with only YES.", "expect": {"equals": "YES"}},
+  {"id": "no", "prompt": "Reply with only NO.", "expect": {"equals": "NO"}},
+  {"id": "ok", "prompt": "Reply with only OK.", "expect": {"equals": "OK"}},
+  {"id": "two_plus_two", "prompt": "What is 2+2? Reply with only the digit.", "expect": {"equals": "4"}},
+  {"id": "ten_minus_three", "prompt": "What is 10-3? Reply with only the digit.", "expect": {"equals": "7"}},
+  {"id": "three_times_three", "prompt": "What is 3 times 3? Reply with only the digit.", "expect": {"equals": "9"}},
+  {"id": "http", "prompt": "Chat Completions is sent with which HTTP method? Reply with only GET or POST.", "expect": {"equals": "POST"}},
+  {"id": "sse", "prompt": "Server-Sent Events is abbreviated how? Reply with only SSE.", "expect": {"equals": "SSE"}},
+  {"id": "token_word", "prompt": "In one short sentence, what is a token in an LLM API?", "expect": {"contains": "token"}},
+  {"id": "system_role", "prompt": "Name the message role used for instructions. Reply with only system, user, or assistant.", "expect": {"equals": "system"}},
+  {"id": "user_role", "prompt": "Name the message role for the human prompt. Reply with only system, user, or assistant.", "expect": {"equals": "user"}},
+  {"id": "assistant_role", "prompt": "Name the message role for the model's reply. Reply with only system, user, or assistant.", "expect": {"equals": "assistant"}},
+  {"id": "finish_stop", "prompt": "If the model finished naturally, finish_reason is usually what? Reply with only stop or length.", "expect": {"equals": "stop"}},
+  {"id": "finish_length", "prompt": "If max_tokens cut the reply off, finish_reason is usually what? Reply with only stop or length.", "expect": {"equals": "length"}},
+  {"id": "tools_local", "prompt": "Tool functions run in our Python. Reply with only PYTHON.", "expect": {"equals": "PYTHON"}},
+  {"id": "no_memory", "prompt": "Does the Chat Completions API store your chat after the request ends? Reply with only no.", "expect": {"equals": "NO"}},
+  {"id": "rag_cite", "prompt": "RAG should cite retrieved filenames. Reply with only CITE.", "expect": {"equals": "CITE"}},
+  {"id": "unknown", "prompt": "Reply with only UNKNOWN if you are not a search engine.", "expect": {"equals": "UNKNOWN"}}
+]

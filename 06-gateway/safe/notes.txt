@@ -1,0 +1,1 @@
+Visible notes. This folder is the only path the patched read_file tool may open.
