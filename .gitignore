@@ -13,3 +13,6 @@ __pycache__/
 03-tool-agent/last-trace.json
 03-tool-agent/last-extract-request.json
 03-tool-agent/last-extract-response.json
+04-rag/index.json
+04-rag/last-request.json
+04-rag/last-response.json
