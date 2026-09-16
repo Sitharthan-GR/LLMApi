@@ -6,3 +6,5 @@ __pycache__/
 .DS_Store
 01-hello-chat/last-request.json
 01-hello-chat/last-response.json
+02-chat-cli/last-request.json
+02-chat-cli/last-stream.json
